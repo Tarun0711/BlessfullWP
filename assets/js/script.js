@@ -42,7 +42,7 @@
         preloader.classList.add('hidden');
         document.body.style.overflow = '';
         startHeroAnimation();
-      }, 400);
+      }, 800);
     }
     bar.style.width = progress + '%';
   }, speed);
