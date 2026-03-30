@@ -1,0 +1,14 @@
+# =====================================================
+# Blissful Beginnings Wedding Planner — Dehradun
+# robots.txt | https://blissfulbeginnings.in
+# =====================================================
+
+User-agent: *
+Allow: /
+
+# Block crawling of asset source files (not pages)
+Disallow: /assets/videos/
+Disallow: /references/
+
+# Sitemap location
+Sitemap: https://blissfulbeginnings.in/sitemap.xml
