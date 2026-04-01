@@ -20,7 +20,11 @@
   <meta property="og:title" content="Blissful Beginnings | Best Wedding Planner Dehradun">
   <meta property="og:description" content="Luxury wedding & event planner in Dehradun. Expert decor for weddings, haldi & birthdays. Book your dream event today!">
   <meta property="og:type" content="website">
-  <meta property="og:image" content="assets/images/logo.png">
+  <meta property="og:url" content="https://blissfulbeginnings.in/">
+  <meta property="og:image" content="https://blissfulbeginnings.in/assets/images/logo.png">
+  <meta property="og:image:alt" content="Blissful Beginnings Wedding Planner Dehradun Logo">
+  <meta property="og:image:width" content="512">
+  <meta property="og:image:height" content="512">
   <meta property="og:locale" content="en_IN">
   <meta property="og:site_name" content="Blissful Beginnings Wedding Planner Dehradun">
 
@@ -111,15 +115,16 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
-  <!-- ===== Google Fonts — reduced weights, display=swap ===== -->
-  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,600;0,700;1,600&family=Poppins:wght@400;500;600&family=Great+Vibes&display=swap" rel="stylesheet">
+  <!-- ===== Google Fonts — deferred (non-render-blocking) ===== -->
+  <link rel="preload" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,600;0,700;1,600&family=Poppins:wght@400;500;600&family=Great+Vibes&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,600;0,700;1,600&family=Poppins:wght@400;500;600&family=Great+Vibes&display=swap"></noscript>
 
   <!-- ===== Font Awesome — load after page render ===== -->
   <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'" crossorigin="anonymous">
   <noscript><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" crossorigin="anonymous"></noscript>
 
-  <!-- ===== Stylesheet ===== -->
-  <link rel="stylesheet" href="assets/css/styles.css">
+  <!-- ===== Stylesheet (minified) ===== -->
+  <link rel="stylesheet" href="assets/css/styles.min.css">
 </head>
 <body>
 
@@ -313,10 +318,10 @@
           </h2>
           <div class="gold-rule" aria-hidden="true"></div>
           <p class="about-lead">
-            At Blissful Beginnings, Dehradun's most trusted wedding planner, we believe your celebration is not just an event — it's the opening chapter of your most beautiful story.
+            At Blissful Beginnings, Dehradun's most trusted <a href="#services" class="inline-link">wedding planner</a>, we believe your celebration is not just an event — it's the opening chapter of your most beautiful story.
           </p>
           <p class="about-body">
-            With over 8 years of curating luxury wedding and event experiences across Dehradun and Uttarakhand, our passionate team of designers and event architects transforms your vision into a living, breathing masterpiece. From intimate haldi ceremonies in Sudhowala to grand royal weddings across Uttarakhand, each celebration receives our full heart and relentless creativity.
+            With over 8 years of curating luxury <a href="#services" class="inline-link">wedding and event experiences</a> across Dehradun and Uttarakhand, our passionate team of designers and event architects transforms your vision into a living, breathing masterpiece. From intimate <a href="#services" class="inline-link">haldi ceremonies</a> in Sudhowala to grand royal <a href="#gallery" class="inline-link">weddings across Uttarakhand</a>, each celebration receives our full heart and relentless creativity.
           </p>
           <div class="about-features">
             <div class="feat-item"><i class="fas fa-gem"></i><span>Premium Decor</span></div>
@@ -340,7 +345,7 @@
       <div class="section-header reveal-up">
         <div class="section-eyebrow">What We Do</div>
         <h2 class="section-title">Wedding &amp; Event Services in <span class="gold-text">Dehradun</span></h2>
-        <p class="section-desc">From intimate gatherings to grand royal celebrations in Dehradun &amp; Uttarakhand — we bring every vision to life</p>
+        <p class="section-desc">From intimate gatherings to grand royal celebrations in Dehradun &amp; Uttarakhand — we bring every vision to life. <a href="#contact" class="inline-link">Book a free consultation</a> or explore our <a href="#gallery" class="inline-link">portfolio</a>.</p>
       </div>
 
       <div class="services-grid">
@@ -477,7 +482,7 @@
       <div class="section-header reveal-up">
         <div class="section-eyebrow">Our Portfolio</div>
         <h2 class="section-title">Wedding Portfolio — <span class="gold-text">Dehradun &amp; Uttarakhand</span></h2>
-        <p class="section-desc">Each frame tells a story of love, joy, and unforgettable celebration in Dehradun</p>
+        <p class="section-desc">Each frame tells a story of love, joy, and unforgettable celebration in Dehradun. <a href="#contact" class="inline-link">Get in touch</a> to plan yours.</p>
       </div>
 
       <div class="gallery-grid" id="galleryGrid">
@@ -869,7 +874,8 @@
               <li><a href="#about">About Us</a></li>
               <li><a href="#services">Services</a></li>
               <li><a href="#gallery">Gallery</a></li>
-              <li><a href="#contact">Contact</a></li>
+              <li><a href="#testimonials">Reviews</a></li>
+              <li><a href="#contact">Contact Us</a></li>
             </ul>
           </nav>
 
@@ -882,6 +888,18 @@
               <li><a href="#services">Birthday Parties</a></li>
               <li><a href="#services">Baby Shower</a></li>
               <li><a href="#services">Proposal Decor</a></li>
+              <li><a href="#services">Griha Pravesh</a></li>
+              <li><a href="#services">Candle Light Dinner</a></li>
+            </ul>
+          </nav>
+
+          <nav class="footer-nav" aria-label="Useful Resources">
+            <h4>Useful Resources</h4>
+            <ul>
+              <li><a href="https://uttarakhandtourism.gov.in/" target="_blank" rel="noopener noreferrer">Uttarakhand Tourism (Official)</a></li>
+              <li><a href="https://www.weddingwire.in/wedding-vendors/wedding-planners--dehradun" target="_blank" rel="noopener noreferrer">Wedding Planners in Dehradun</a></li>
+              <li><a href="https://www.jeevansathi.com/" target="_blank" rel="noopener noreferrer">Indian Wedding Planning Tips</a></li>
+              <li><a href="https://www.weddingsutra.com/" target="_blank" rel="noopener noreferrer">Wedding Inspiration &amp; Ideas</a></li>
             </ul>
           </nav>
 

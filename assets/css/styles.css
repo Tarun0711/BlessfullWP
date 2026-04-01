@@ -1613,6 +1613,19 @@ input, textarea, select { font-family: var(--font-body); }
 
 .insta-handle:hover { color: var(--rose-dark); }
 
+/* Inline anchor links within body copy */
+.inline-link {
+  color: var(--rose);
+  font-weight: 500;
+  border-bottom: 1px solid rgba(160, 110, 100, 0.35);
+  transition: color 0.3s ease, border-color 0.3s ease;
+}
+
+.inline-link:hover {
+  color: var(--rose-dark);
+  border-bottom-color: var(--rose-dark);
+}
+
 .insta-grid {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
