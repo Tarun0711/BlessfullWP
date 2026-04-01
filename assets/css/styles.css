@@ -1926,6 +1926,16 @@ input, textarea, select { font-family: var(--font-body); }
   font-size: 1rem;
 }
 
+.ci-text {
+  min-width: 0;
+  flex: 1;
+}
+
+.ci-text.email a {
+  word-break: break-all;
+  font-size: 0.7rem;
+}
+
 .ci-text h4 {
   font-family: var(--font-display);
   font-size: 0.88rem;
@@ -1940,6 +1950,7 @@ input, textarea, select { font-family: var(--font-body); }
   color: var(--text-mid);
   transition: color 0.3s ease;
   margin-bottom: 2px;
+  overflow-wrap: break-word;
 }
 
 .ci-text a:hover { color: var(--rose); }
